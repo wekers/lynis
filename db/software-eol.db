@@ -365,11 +365,13 @@ os:Slackware Linux 12.1:2013-12-09:1386540000:
 os:Slackware Linux 12.2:2013-12-09:1386540000:
 os:Slackware Linux 13.0:2018-07-05:1530738000:
 os:Slackware Linux 13.1:2018-07-05:1530738000:
-os:Slackware Linux 13.37:2018-07-05:1530738000:
-os:Slackware Linux 14.0:2024-01-01:1704063600:
-os:Slackware Linux 14.1:2024-01-01:1704063600:
-os:Slackware Linux 14.2:2024-01-01:1704063600:
-os:Slackware Linux 15.0::-1:
+os:^Slackware Linux 13.37:2018-07-05:1530738000:
+os:^Slackware Linux 14[.]0$:2024-01-01:1704063600:
+os:^Slackware Linux 14[.]1$:2024-01-01:1704063600:
+os:^Slackware Linux 14[.]2$:2024-01-01:1704063600:
+# Slackware -current (example: Slackware Linux 14.2+)
+os:^Slackware Linux 14[.]2[+]$::-1:
+os:^Slackware Linux 15[.]0$::-1:
 #
 # SUSE - https://www.suse.com/lifecycle/
 #
